@@ -1,0 +1,60 @@
+body {
+    color:black;
+    font-family:cursive;
+    border: 5rem;
+    border: solid;
+    border-radius: 0.25rem;
+    font-size: large;
+    padding-right: 5rem;
+    padding-left: 5rem ;
+    padding-bottom:5rem
+    
+}
+
+a.a {
+    text-decoration: none;
+    color:indianred;
+    font-style:normal;
+}
+a.a:hover {
+    text-decoration: none;
+    border: 2px dashed indianred;
+    padding: 5px;
+    border-radius: 0.25rem;
+    font-weight: bolder;
+    border-color: darkslategray;
+}
+ul{ font-size: x-large;
+    color:black;
+    padding-right: 3rem;
+}
+li{
+    color:teal;
+    padding-right: 4rem;
+}
+button {
+    color:black;
+    background-color:white;
+    border: 2px solid teal;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+.table{
+    text-align: center;
+    color:darkslateblue;
+    border:0px black;
+}
+hr {
+    padding-right: ;
+    padding-left: 5rem;
+}
+div.section{
+    font-size:19pt ; 
+    color:darkslategray ; 
+    font-weight: bolder;
+    padding-top:10pt
+}
+div.caption{
+    color:indianred; 
+    font-size:larger
+}
