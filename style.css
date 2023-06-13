@@ -1,0 +1,146 @@
+body {
+    color:black;
+    font-family:sans-serif;
+    
+    
+}
+.text{
+    padding-left: 2pt;
+    padding-right: 3pt;
+    
+}
+
+
+.h1{
+    background-image: url(bg-index-dark.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 20rem;
+    font-size:150%;
+    font-weight: bolder;
+   
+}
+.mark {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-top: 40pt;
+    font-size:15pt;
+
+}
+
+
+.center{
+     color:white;
+     padding: 20px;
+     padding-top:2%;
+     font-size:150%;
+     text-align: left;
+     font-family: 'Times New Roman', Times, serif;
+     padding-bottom:15px;
+ }
+a.a {
+    text-decoration: none;
+    color:indianred;
+    font-style:normal;
+}
+a.a:hover {
+    text-decoration: none;
+    border: 2px dashed indianred;
+    padding: 5px;
+    border-radius: 0.25rem;
+    font-weight: bolder;
+}
+  
+a.a:active {
+    color:black;
+    border: 2px dashed black;
+}
+
+
+/* for the about me section */
+.showLeft {
+    /*background-color: inherit !important;
+    border: 1px solid inherit !important;*/
+    text-shadow: white !important;
+    color: black !important;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.icons li {
+    background: none repeat scroll 0 0 White;
+    height: 5px;
+    width: 20px;
+    line-height: 0;
+    list-style: none outside none;
+    margin-right: 15px;
+    margin-top: 3px;
+    vertical-align: top;
+    border-radius: 0.50rem;
+    pointer-events: none;
+}
+
+.btn-left {
+    left: 0.4em;
+}
+
+.btn-right {
+    right: 0.4em;
+}
+
+.btn-left,
+.btn-right {
+    position: absolute;
+    top: 0.24em;
+}
+
+.dropbtn {
+    background-color: inherit;
+    position: absolute;
+    color: white;
+    font-size: 5px;
+    border: none;
+    /* cursor: pointer*/
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: inherit;
+}
+
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    right: 0.4em;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border: 1px solid darkslategray;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+}
+
+.dropdown a:hover {
+    background-color: #f1f1f1;
+    cursor: inherit;
+}
+
+.show {
+    display: block;
+}

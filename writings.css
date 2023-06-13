@@ -1,0 +1,133 @@
+.h1{
+    background-image: url(WallpaperDog-5450343.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:150%;
+    font-weight: bolder;
+}
+    
+body{
+    font-family: sans-serif;
+}
+.onpage{
+    padding-bottom:15pt;
+    font-family: sans-serif;
+    border: darkslategray solid 2pt;
+    border-radius: .25rem;
+    padding-left: 5pt;
+    padding-right: 5pt;
+
+}
+.highlight{
+    font-family: sans-serif ;
+    background-color: grey;
+    color:white;
+    text-align: center;
+    font-size: x-large;
+    font-weight: lighter;
+    padding: 4pt;
+
+
+}
+.center{
+   /* color:rgba(255, 255, 255, 0.623);*/
+    color:white;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 10pt;
+    padding-top:20pt;
+    text-align:left ;
+    font-size:150%;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.showLeft {
+    /*background-color: inherit !important;
+    border: 1px solid inherit !important;*/
+    text-shadow: white !important;
+    color: black !important;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.icons li {
+    background: none repeat scroll 0 0 white;
+    height: 5px;
+    width: 20px;
+    line-height: 0;
+    list-style: none outside none;
+    margin-right: 15px;
+    margin-top: 3px;
+    vertical-align: top;
+    border-radius: 0.50rem;
+    pointer-events: none;
+}
+
+.btn-left {
+    left: 0.4em;
+}
+
+.btn-right {
+    right: 0.4em;
+}
+
+.btn-left,
+.btn-right {
+    position: absolute;
+    top: 0.24em;
+}
+
+.dropbtn {
+    background-color: inherit;
+    position: absolute;
+    color: white;
+    font-size: 5px;
+    border: none;
+    /* cursor: pointer*/
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: inherit;
+}
+
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    right: 0.4em;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border: 1px solid black;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #f1f1f1;
+    cursor: inherit;
+}
+
+.show {
+    display: block;
+}
+.headline{
+    font-size: xx-large;
+    font-weight: bold;
+    color:darkslateblue
+}
