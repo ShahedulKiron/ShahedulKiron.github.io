@@ -7,30 +7,34 @@
     <link rel="stylesheet" href="About me.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-    <!-- three dot menu -->
-    <div class="dropdown">
-        <!-- three dots -->
-        <ul class="dropbtn icons btn-right showLeft" onclick="showDropdown()">
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <!-- menu -->
-        <div id="myDropdown" class="dropdown-content">
-            <a href="index.html" >Home</a>
-            <a href="About me.html">About</a>
-
-        </div>
-    </div>
-
-    </div>
 </head>
 
 <body>
     <div class="h1">
-        <div class="center">Shahedul <br>Kiron<br>[Unwanted <br>info <br>about Me]<br></div>
+        <div class="center"><br>Shahedul <br>Kiron<br>[Unwanted <br>info]<br></div>
     </div>
+    <ul>
+        <li><a>Unordinary Me</a>
+            <ul class="dropdown">
+                <li><a href="short stories.html">Short Stories</a></li>
+                <li><a href="poem.html">Poem</a></li>
+                <li><a href="Novel.html">Novel</a></li>
+            </ul>
+        </li>
+        <li><a>∞~Deja Vu~∞</a>
+            <ul class="dropdown">
+                <li><a href="paranormal.html">Parnormal</a></li>
+                <li><a href="book review.html">Books review</a></li>
+                <li><a href="movie analysis.html">Movie analysing</a></li>
+            </ul>
+        </li>
+        <li><a>Roam</a>
+            <ul class="dropdown">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About me.html">About Me</a></li>
+            </ul>
+        </li>
+    </ul>
     <p class="writings"><br>আমি শাহেদুল আলম।
         <br>২০২৩ সালের মে মাসে প্রথম এই পেইজটি তৈরি করি।
         পরবর্তিতে আরও পরিমার্জন করে বর্তমানের ওয়েবসাইটিতে এসেছে।
@@ -41,35 +45,6 @@
 
     </p>
 
-<!-- Javascript started -->
-    <script>
-
-        function changeLanguage(language) {
-            var element = document.getElementById("url");
-            element.value = language;
-            element.innerHTML = language;
-        }
-
-        function showDropdown() {
-            document.getElementById("myDropdown").classList.toggle("show");
-        }
-
-    // Close the dropdown if the user clicks outside of it
-    // window.onclick = function(event) {
-    //   if (!event.target.matches(".dropbtn")) {
-    //       var dropdowns = document.getElementsByClassName("dropdown-content");
-    //           var i;
-    //               for (i = 0; i < dropdowns.length; i++) {
-    //                     var openDropdown = dropdowns[i];
-    //                           if (openDropdown.classList.contains("show")) {
-    //                                   openDropdown.classList.remove("show");
-    //                                         }
-    //                                             }
-    //                                               }
-    //                                               };
-    //
-
-    </script>
 </body>
 
 </html>
