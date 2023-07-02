@@ -1,12 +1,5 @@
 body{
-    margin: 0;
-}
-.h1{
-    background-image: url(WallpaperDog-5450343.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size:150%;
-    font-weight: bolder;
+    margin: 0; 
 }
     
 body{
@@ -16,8 +9,8 @@ body{
     padding-bottom:15pt;
     font-family: sans-serif;
     font-style: italic;
-    padding-left: 20pt;
-    padding-right: 20pt;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .highlight{
     font-family: sans-serif ;
@@ -31,7 +24,6 @@ body{
 
 }
 .center{
-   /* color:rgba(255, 255, 255, 0.623);*/
     color:white;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -78,7 +70,6 @@ ul {
     padding-top: 16px;
     padding-bottom: 5px;
     text-align: center;
-    opacity: 0.92;
     padding: 0;
     margin: 0;
     font-family:monospace;
